@@ -1,0 +1,45 @@
+{
+  "name": "mdxlint-language-server",
+  "version": "0.0.0",
+  "description": "A language server for mdxlint",
+  "keywords": [
+    "language-server",
+    "language-server-protocol",
+    "lsp",
+    "mdx",
+    "mdxlint",
+    "remark",
+    "remark-lint",
+    "unified"
+  ],
+  "homepage": "https://github.com/remcohaszing/mdxlint-language-server#readme",
+  "bugs": "https://github.com/remcohaszing/mdxlint-language-server/issues",
+  "repository": "remcohaszing/mdxlint-language-server",
+  "funding": "https://github.com/sponsors/remcohaszing",
+  "license": "MIT",
+  "author": "Remco Haszing <remcohaszing@gmail.com>",
+  "sideEffects": false,
+  "type": "module",
+  "bin": "./mdxlint-language-server.js",
+  "exports": "./mdxlint-language-server.js",
+  "files": [
+    "logo.svg",
+    "mdxlint-language-server.js"
+  ],
+  "scripts": {
+    "test": "node --test"
+  },
+  "dependencies": {
+    "mdxlint": "^1.0.0",
+    "unified-language-server": "^4.0.0"
+  },
+  "devDependencies": {
+    "@remcohaszing/eslint": "^11.0.0",
+    "mdxlint-language-server": "file:",
+    "prettier": "^3.0.0",
+    "remark-cli": "^12.0.0",
+    "remark-preset-remcohaszing": "^3.0.0",
+    "typescript": "^5.0.0",
+    "vscode-languageserver": "^9.0.0"
+  }
+}
