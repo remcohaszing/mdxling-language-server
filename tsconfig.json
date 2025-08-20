@@ -1,6 +1,7 @@
 {
   "compilerOptions": {
     "checkJs": true,
+    "skipLibCheck": true,
     "module": "node20",
     "noEmit": true,
     "resolveJsonModule": true,
